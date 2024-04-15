@@ -1,3 +1,3 @@
 # Basic HTML WebSite
-This is Basic WebSite using HTML.<br>
+<p>This is Basic WebSite using HTML.</p><br>
 i.e. This WebSite is for testing purposes only.
