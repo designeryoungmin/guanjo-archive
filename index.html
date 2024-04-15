@@ -12,9 +12,31 @@
 </script>
 <title>Archive_of_MrGuanJo</title>
 <meta charset="utf-8">
+
+<!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- Day & Night Features -->
+<script src="day_night.js"> </script>
 </head>
 
 <body>
+	<!-- <input id="day_night" type="button" value="day" onclick="
+		if(document.querySelector('#day_night').value === 'day'){
+			document.querySelector('body').style.backgroundColor = 'black';
+			document.querySelector('body').style.color = 'white';
+			document.querySelector('#day_night').value = 'night';
+		} else{
+			document.querySelector('body').style.backgroundColor = 'white';
+			document.querySelector('body').style.color = 'black';
+			document.querySelector('#day_night').value = 'day';
+		}
+	"> -->
+
+	<input type="button" value="day" onclick="
+	dayNightHandler(this);
+	">
+
+
 	<h1 style="text-align: center; margin-bottom: 40px; " ><a href="index.html">Mr.GuanJo's Archive</a></h1>
 
 	<ul>
