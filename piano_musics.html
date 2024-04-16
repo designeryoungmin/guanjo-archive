@@ -17,26 +17,35 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 <script src="day_night.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <!-- Day & Night Button -->
+<div>
 <input type="button" value="day" onclick="
 dayNightHandler(this);
 ">
+</div>
 
 <!-- Home Button -->
+<div>
 <form action="./index.html">
     <input type="submit" value="Go to Home" />
 </form>
-
+</div>
 <h1>List of Piano Musics</h1>
+
+<div id="grid">
 <ul>
 	<li>Summer(Hisaishi Joe) - Moon Aram Arr.</li>
 	<li>Pi song(이상한 나라의 수학자 OST)- JH Piano</li>
 </ul>
 
+<div id="article">
 <p>
 	<h2>Summer(Hisaishi Joe) - Moon Aram Arr.</h2>
 	<iframe width="730" height="420" src="https://www.youtube.com/embed/LdKs3eFN0DU?si=JZyRS6KRXEHUALmF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -45,5 +54,7 @@ dayNightHandler(this);
 	<h2>Pi song(이상한 나라의 수학자 OST)- JH Piano</h2>
 	<iframe width="730" height="420" src="https://www.youtube.com/embed/EJqRGtSiQIs?si=ka1Spnvjv5vCZSNK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
+</div>
+</div>
 </body>
 </html>
